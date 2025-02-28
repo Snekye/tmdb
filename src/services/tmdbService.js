@@ -17,3 +17,13 @@ export const fetchMovieDetails = async (id) => {
   const { data } = await axios.get(`${BASE_URL}/movie/${id}?api_key=${API_KEY}`);
   return data;
 };
+
+export const getGenres = async () => {
+  const { data } = await axios.get(`${BASE_URL}/genre/movie/list?api_key=${API_KEY}`);
+  return data.genres;
+};
+
+export const getMoviesByGenre = async (genreId) => {
+  const { data } = await axios.get(`${BASE_URL}/discover/movie?with_genres=${genreId}&api_key=${API_KEY}`);
+  return data.results;
+};

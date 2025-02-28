@@ -1,0 +1,14 @@
+@import "../css/main.scss";
+.genres {
+    margin: 1%;
+    select, option {
+            background-color: $col-bg;
+            border: 1px solid white;
+            border-radius: 5px;
+            font-size: 1em;
+            color: white;
+    }
+    .movies {
+        @include movies-flex;
+    }
+}
