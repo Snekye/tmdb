@@ -1,0 +1,12 @@
+.navbar {
+    padding: 1.5%;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menu {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

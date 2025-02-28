@@ -1,0 +1,16 @@
+@import "../css/main.scss";
+.search {
+    margin: 1%;
+    .searchForm {
+        input {
+            background-color: $col-bg;
+            border: 1px solid white;
+            border-radius: 5px;
+            font-size: 1em;
+            color: white;
+        }
+    }
+    .movies {
+        @include movies-flex;
+    }
+}

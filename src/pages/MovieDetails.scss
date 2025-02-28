@@ -1,0 +1,17 @@
+.moviedetails {
+    margin: 1%;
+    display: flex;
+    justify-content: space-around;
+    .line {
+        background-color:  white;
+        width: 1px;
+        height: 80vh;
+    }
+    img {
+        max-width: 40vw;
+        max-height: 80vh;
+    }
+    .movieinfo {
+        max-width: 40vw;
+    }
+}

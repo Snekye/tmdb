@@ -1,0 +1,7 @@
+@import "../css/main.scss";
+.home {
+    margin: 1%;
+    .movies {
+        @include movies-flex;
+    }
+}
